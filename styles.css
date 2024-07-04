@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.812), rgba(0,0,0,0.669)),url(https://th.bing.com/th/id/OIP.whoeDJcRcCDbE1zPsL99mQHaEo?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.content{
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}
+.content h1{
+text-transform: uppercase;
+color: lightseagreen;
+
+
+    
+
+}
+ .content p{
+    font-size: 23px;
+    margin: 15px 0;
+    color: bisque;
+ }  
+ .content .line{ 
+    font-weight: 600;
+
+    
+ }
+ .content button{
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 15%;
+    font-weight: 600;
+    color: bisque;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+
+ }
+.content button:hover{
+    background-color: bisque;
+    color: lightseagreen;
+    transition: 0.5s
+}
